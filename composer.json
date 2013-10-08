@@ -1,12 +1,12 @@
 {
-    "name": "akrabat/booklist",
+    "name": "akrabat/booklist-apigility",
     "description": "ZF2 booklist application",
     "license": "BSD-3-Clause",
     "keywords": [
         "framework",
         "zf2"
     ],
-    "homepage": "http://framework.zend.com/",
+    "homepage": "https://github.com/akrabat/booklist-apigility",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*"
