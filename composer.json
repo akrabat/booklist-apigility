@@ -7,8 +7,18 @@
         "zf2"
     ],
     "homepage": "https://github.com/akrabat/booklist-apigility",
+    "minimum-stability": "dev",
+    "repositories": [
+        { "type": "composer", "url": "https://packages.zendframework.com" }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "dev-develop",
+        "zfcampus/zf-apigility": "dev-master"
+    },
+    "require-dev": {
+        "zendframework/zftool": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zfcampus/zf-apigility-admin": "dev-master"
     }
 }

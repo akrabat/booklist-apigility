@@ -4,6 +4,14 @@ return array(
     'modules' => array(
         'Application',
         'Library',
+        'ZF\Apigility',
+        'AssetManager',
+        'ZF\ApiProblem',
+        'ZF\Hal',
+        'ZF\ContentNegotiation',
+        'ZF\Rest',
+        'ZF\Configuration',
+        'ZF\Versioning',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
